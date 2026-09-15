@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suriya Wallet</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    .container {
+      max-width: 430px;
+      margin: auto;
+      min-height: 100vh;
+      padding: 25px 18px;
+    }
+
+    .logo {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin: 35px 0 8px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #6b7280;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin-bottom: 18px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: 0;
+      border-radius: 10px;
+      background: #111827;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .register {
+      background: #2563eb;
+      margin-top: 10px;
+    }
+
+    .balance {
+      background: #111827;
+      color: white;
+      padding: 25px;
+      border-radius: 18px;
+      margin-bottom: 18px;
+    }
+
+    .balance small {
+      opacity: .7;
+    }
+
+    .balance h1 {
+      margin-top: 8px;
+      font-size: 32px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px 10px;
+      border-radius: 14px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      color: #9ca3af;
+      margin-top: 35px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">💰 Suriya Wallet</div>
+    <div class="subtitle">Simple Wallet-to-Wallet Payments</div>
+
+    <div class="card">
+      <h2>Login</h2>
+
+      <input
+        type="tel"
+        placeholder="Mobile Number"
+        maxlength="10"
+      >
+
+      <input
+        type="password"
+        placeholder="Password"
+      >
+
+      <button>Login</button>
+
+      <button class="register">Create Account</button>
+    </div>
+
+    <div class="balance">
+      <small>Wallet Balance</small>
+      <h1>₹0.00</h1>
+    </div>
+
+    <div class="features">
+      <div class="feature">📤<br>Send Money</div>
+      <div class="feature">📥<br>Receive Money</div>
+      <div class="feature">📜<br>Transactions</div>
+      <div class="feature">👤<br>Profile</div>
+    </div>
+
+    <footer>
+      © 2026 Suriya Wallet
+    </footer>
+
+  </div>
+
+</body>
+</html>
